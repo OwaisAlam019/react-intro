@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Clock from './App';
+import Clock from './components/Clock';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Clock/>,document.getElementById('root'))
